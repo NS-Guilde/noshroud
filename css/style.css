@@ -23,8 +23,13 @@ h4{
     color: white;
     font-family: "Fredoka One", "sans-serif";
     font-size: 25px !important;
-}
+    transition: 0.1s;
+    }
 
+h4:hover{
+    color:rgb(142, 228, 44);
+
+}
 .dropdown>.dropdown-menu {
     top: 200%;
     transition: 0.3s all ease-in-out;
@@ -36,10 +41,12 @@ h4{
 
 .nav-link{
     transition: 0.3s;
+    padding-right: 1.5rem !important;
 }
 
 .nav-link:hover{
-    transform: scale(1.2);
+    transform: scale(1.3);
+    
     
 }
 
