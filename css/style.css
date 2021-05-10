@@ -1,0 +1,31 @@
+body{
+    margin: auto;
+    background-image: url(/images/world-of-warcraft-the-burning-crusade-11.jpg);
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: "Fredoka One", "sans-serif";
+}
+
+h2{
+    color: white;
+    font-family: "Fredoka One", "sans-serif";
+
+}
+
+h4{
+    color: white;
+    font-family: "Fredoka One", "sans-serif";
+}
+
+.dropdown>.dropdown-menu {
+    top: 200%;
+    transition: 0.3s all ease-in-out;
+  }
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+    top: 100%;
+  }
